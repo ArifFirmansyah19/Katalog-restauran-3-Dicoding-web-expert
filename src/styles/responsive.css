@@ -1,0 +1,321 @@
+.app-bar {
+    grid-template-columns: 1fr auto;
+    height: 70px;
+    padding: 8px 32px;
+    height: 50px;
+    padding: 10px;
+}
+
+.app-bar__brand h1 {
+    margin-top: 3px;
+    text-align: left;
+    width: auto;
+    height: 44px;
+    font-size: 0.7em;
+}
+
+#hamburgerButton {
+    width: 44px;
+    height: 44px;
+    margin-left: -15px;
+}
+
+@media screen and (min-width: 710px) {
+    .restaurant-list {
+        grid-template-columns: 1fr 1fr;
+        margin: 20px 60px;
+    }
+    .app-bar {
+        grid-template-columns: 1fr auto;
+        padding: 8px 32px;
+    }
+    .app-bar .app-bar__brand h1 {
+        font-size: 1.2em;
+        text-align: left;
+    }
+    .app-bar .app-bar__menu {
+        display: none;
+    }
+    .app-bar .app-bar__navigation ul li {
+        display: inline-block;
+    }
+    .app-bar .app-bar__navigation ul li a {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 3px;
+        width: auto;
+        height: 44px;
+        text-align: center;
+        padding-right: 8px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .restaurant-list {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 20px 100px;
+    }
+    .app-bar {
+        grid-template-columns: 1fr auto;
+        padding: 8px 32px;
+    }
+    .app-bar .app-bar__brand h1 {
+        font-size: 1.2em;
+        text-align: left;
+    }
+    .app-bar .app-bar__menu {
+        display: none;
+    }
+    .app-bar .app-bar__navigation ul li {
+        display: inline-block;
+    }
+    .app-bar .app-bar__navigation ul li a {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 3px;
+        width: auto;
+        height: 44px;
+        text-align: center;
+        padding-right: 8px;
+        margin: 0;
+    }
+    .hero__inner img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .restaurant-list {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 20px 100px;
+    }
+    .app-bar {
+        grid-template-columns: 1fr auto;
+        padding: 8px 32px;
+    }
+    .app-bar .app-bar__brand h1 {
+        font-size: 1.2em;
+        text-align: left;
+    }
+    .app-bar .app-bar__menu {
+        display: none;
+    }
+    .app-bar .app-bar__navigation ul li {
+        display: inline-block;
+    }
+    .app-bar .app-bar__navigation ul li a {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 3px;
+        width: auto;
+        height: 44px;
+        text-align: center;
+        padding-right: 8px;
+        margin: 0;
+    }
+    .hero__inner img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .restaurant-list {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 40px 100px;
+    }
+    .restaurant-detail {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .review-detail {
+        margin: 0 5px;
+    }
+    .app-bar {
+        grid-template-columns: 1fr auto;
+        padding: 8px 32px;
+    }
+    .app-bar .app-bar__brand h1 {
+        font-size: 1.2em;
+        text-align: left;
+    }
+    .app-bar .app-bar__menu {
+        display: none;
+    }
+    .app-bar .app-bar__navigation ul li {
+        display: inline-block;
+    }
+    .app-bar .app-bar__navigation ul li a {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 3px;
+        width: auto;
+        height: 44px;
+        text-align: center;
+        padding-right: 8px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .restaurant-list {
+        grid-template-columns: 1fr 1fr;
+        margin: 20px 50px;
+    }
+    .app-bar .app-bar__brand h1 {
+        font-size: 2em;
+    }
+    .app-bar {
+        grid-template-columns: 1fr auto;
+        padding: 8px 32px;
+    }
+    .app-bar .app-bar__brand h1 {
+        font-size: 1.2em;
+        text-align: left;
+    }
+    .app-bar .app-bar__menu {
+        display: none;
+    }
+    .app-bar .app-bar__navigation ul li {
+        display: inline-block;
+    }
+    .app-bar .app-bar__navigation ul li a {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 3px;
+        width: auto;
+        height: 44px;
+        text-align: center;
+        padding-right: 8px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .app-bar {
+        grid-template-columns: 1fr auto;
+        padding: 8px 32px;
+    }
+    .app-bar .app-bar__brand h1 {
+        font-size: 1.2em;
+        text-align: left;
+    }
+    .app-bar .app-bar__menu {
+        display: none;
+    }
+    .app-bar .app-bar__navigation {
+        position: static;
+        width: 100%;
+    }
+    .app-bar .app-bar__navigation ul li {
+        display: inline-block;
+    }
+    .app-bar .app-bar__navigation ul li a {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 3px;
+        width: auto;
+        height: 44px;
+        text-align: center;
+        padding-right: 8px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app-bar {
+        grid-template-columns: 1fr auto;
+        padding: 8px 32px;
+    }
+    .app-bar .app-bar__brand h1 {
+        font-size: 1.2em;
+        text-align: left;
+    }
+    .app-bar .app-bar__menu {
+        display: none;
+    }
+    .app-bar .app-bar__navigation {
+        position: static;
+        width: 100%;
+    }
+    .app-bar .app-bar__navigation ul li {
+        display: inline-block;
+    }
+    .app-bar .app-bar__navigation ul li a {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 3px;
+        width: auto;
+        height: 44px;
+        text-align: center;
+        padding-right: 8px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .app-bar .app-bar__navigation ul li a {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        padding-top: 3px;
+        width: auto;
+        height: 44px;
+        text-align: center;
+        padding-right: 8px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .restaurant-list {
+        grid-template-columns: 1fr;
+    }
+    .app-bar .app-bar__navigation {
+        position: absolute;
+        top: 48px;
+        left: -400px;
+        width: 180px;
+        transition: all 0.3s;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+    .app-bar .app-bar__menu {
+        display: flex;
+        align-items: left;
+    }
+    .app-bar .app-bar__menu button {
+        background-color: transparent;
+        border: none;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .nav__item {
+        display: list-item;
+        border-bottom: 1px solid #E0E0E0;
+        width: 100%;
+        padding: 5px;
+        padding-bottom: 40px;
+        height: 40px;
+        text-align: left;
+        left: -100px;
+    }
+    .app-bar .app-bar__navigation.open {
+        left: 0;
+    }
+    .app-bar .app-bar__navigation ul li a {
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 8px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+}
